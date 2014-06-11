@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F41C6AD19488B44007E69C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F41C6AC19488B44007E69C6 /* Foundation.framework */; };
+		1F41C6AF19488B44007E69C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F41C6AE19488B44007E69C6 /* CoreGraphics.framework */; };
+		1F41C6B119488B44007E69C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F41C6B019488B44007E69C6 /* UIKit.framework */; };
+		1F41C6B719488B44007E69C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F41C6B519488B44007E69C6 /* InfoPlist.strings */; };
+		1F41C6B919488B44007E69C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41C6B819488B44007E69C6 /* main.m */; };
+		1F41C6BD19488B44007E69C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41C6BC19488B44007E69C6 /* AppDelegate.m */; };
+		1F41C6BF19488B44007E69C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F41C6BE19488B44007E69C6 /* Images.xcassets */; };
+		1F41C6C619488B44007E69C6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F41C6C519488B44007E69C6 /* XCTest.framework */; };
+		1F41C6C719488B44007E69C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F41C6AC19488B44007E69C6 /* Foundation.framework */; };
+		1F41C6C819488B44007E69C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F41C6B019488B44007E69C6 /* UIKit.framework */; };
+		1F41C6D019488B44007E69C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F41C6CE19488B44007E69C6 /* InfoPlist.strings */; };
+		1F41C6D219488B44007E69C6 /* VIPDiscountLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41C6D119488B44007E69C6 /* VIPDiscountLearningTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F41C6C919488B44007E69C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F41C6A119488B44007E69C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F41C6A819488B44007E69C6;
+			remoteInfo = VIPDiscountLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F41C6A919488B44007E69C6 /* VIPDiscountLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPDiscountLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F41C6AC19488B44007E69C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F41C6AE19488B44007E69C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F41C6B019488B44007E69C6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F41C6B419488B44007E69C6 /* VIPDiscountLearning-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIPDiscountLearning-Info.plist"; sourceTree = "<group>"; };
+		1F41C6B619488B44007E69C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F41C6B819488B44007E69C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F41C6BA19488B44007E69C6 /* VIPDiscountLearning-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VIPDiscountLearning-Prefix.pch"; sourceTree = "<group>"; };
+		1F41C6BB19488B44007E69C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F41C6BC19488B44007E69C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F41C6BE19488B44007E69C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F41C6C419488B44007E69C6 /* VIPDiscountLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VIPDiscountLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F41C6C519488B44007E69C6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1F41C6CD19488B44007E69C6 /* VIPDiscountLearningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIPDiscountLearningTests-Info.plist"; sourceTree = "<group>"; };
+		1F41C6CF19488B44007E69C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F41C6D119488B44007E69C6 /* VIPDiscountLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPDiscountLearningTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F41C6A619488B44007E69C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F41C6AF19488B44007E69C6 /* CoreGraphics.framework in Frameworks */,
+				1F41C6B119488B44007E69C6 /* UIKit.framework in Frameworks */,
+				1F41C6AD19488B44007E69C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F41C6C119488B44007E69C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F41C6C619488B44007E69C6 /* XCTest.framework in Frameworks */,
+				1F41C6C819488B44007E69C6 /* UIKit.framework in Frameworks */,
+				1F41C6C719488B44007E69C6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F41C6A019488B44007E69C6 = {
+			isa = PBXGroup;
+			children = (
+				1F41C6B219488B44007E69C6 /* VIPDiscountLearning */,
+				1F41C6CB19488B44007E69C6 /* VIPDiscountLearningTests */,
+				1F41C6AB19488B44007E69C6 /* Frameworks */,
+				1F41C6AA19488B44007E69C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F41C6AA19488B44007E69C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F41C6A919488B44007E69C6 /* VIPDiscountLearning.app */,
+				1F41C6C419488B44007E69C6 /* VIPDiscountLearningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F41C6AB19488B44007E69C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F41C6AC19488B44007E69C6 /* Foundation.framework */,
+				1F41C6AE19488B44007E69C6 /* CoreGraphics.framework */,
+				1F41C6B019488B44007E69C6 /* UIKit.framework */,
+				1F41C6C519488B44007E69C6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F41C6B219488B44007E69C6 /* VIPDiscountLearning */ = {
+			isa = PBXGroup;
+			children = (
+				1F41C6BB19488B44007E69C6 /* AppDelegate.h */,
+				1F41C6BC19488B44007E69C6 /* AppDelegate.m */,
+				1F41C6BE19488B44007E69C6 /* Images.xcassets */,
+				1F41C6B319488B44007E69C6 /* Supporting Files */,
+			);
+			path = VIPDiscountLearning;
+			sourceTree = "<group>";
+		};
+		1F41C6B319488B44007E69C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F41C6B419488B44007E69C6 /* VIPDiscountLearning-Info.plist */,
+				1F41C6B519488B44007E69C6 /* InfoPlist.strings */,
+				1F41C6B819488B44007E69C6 /* main.m */,
+				1F41C6BA19488B44007E69C6 /* VIPDiscountLearning-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F41C6CB19488B44007E69C6 /* VIPDiscountLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F41C6D119488B44007E69C6 /* VIPDiscountLearningTests.m */,
+				1F41C6CC19488B44007E69C6 /* Supporting Files */,
+			);
+			path = VIPDiscountLearningTests;
+			sourceTree = "<group>";
+		};
+		1F41C6CC19488B44007E69C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F41C6CD19488B44007E69C6 /* VIPDiscountLearningTests-Info.plist */,
+				1F41C6CE19488B44007E69C6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F41C6A819488B44007E69C6 /* VIPDiscountLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F41C6D519488B44007E69C6 /* Build configuration list for PBXNativeTarget "VIPDiscountLearning" */;
+			buildPhases = (
+				1F41C6A519488B44007E69C6 /* Sources */,
+				1F41C6A619488B44007E69C6 /* Frameworks */,
+				1F41C6A719488B44007E69C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VIPDiscountLearning;
+			productName = VIPDiscountLearning;
+			productReference = 1F41C6A919488B44007E69C6 /* VIPDiscountLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F41C6C319488B44007E69C6 /* VIPDiscountLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F41C6D819488B44007E69C6 /* Build configuration list for PBXNativeTarget "VIPDiscountLearningTests" */;
+			buildPhases = (
+				1F41C6C019488B44007E69C6 /* Sources */,
+				1F41C6C119488B44007E69C6 /* Frameworks */,
+				1F41C6C219488B44007E69C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F41C6CA19488B44007E69C6 /* PBXTargetDependency */,
+			);
+			name = VIPDiscountLearningTests;
+			productName = VIPDiscountLearningTests;
+			productReference = 1F41C6C419488B44007E69C6 /* VIPDiscountLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F41C6A119488B44007E69C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jeff.zhou;
+				TargetAttributes = {
+					1F41C6C319488B44007E69C6 = {
+						TestTargetID = 1F41C6A819488B44007E69C6;
+					};
+				};
+			};
+			buildConfigurationList = 1F41C6A419488B44007E69C6 /* Build configuration list for PBXProject "VIPDiscountLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F41C6A019488B44007E69C6;
+			productRefGroup = 1F41C6AA19488B44007E69C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F41C6A819488B44007E69C6 /* VIPDiscountLearning */,
+				1F41C6C319488B44007E69C6 /* VIPDiscountLearningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F41C6A719488B44007E69C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F41C6B719488B44007E69C6 /* InfoPlist.strings in Resources */,
+				1F41C6BF19488B44007E69C6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F41C6C219488B44007E69C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F41C6D019488B44007E69C6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F41C6A519488B44007E69C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F41C6BD19488B44007E69C6 /* AppDelegate.m in Sources */,
+				1F41C6B919488B44007E69C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F41C6C019488B44007E69C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F41C6D219488B44007E69C6 /* VIPDiscountLearningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F41C6CA19488B44007E69C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F41C6A819488B44007E69C6 /* VIPDiscountLearning */;
+			targetProxy = 1F41C6C919488B44007E69C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F41C6B519488B44007E69C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F41C6B619488B44007E69C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F41C6CE19488B44007E69C6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F41C6CF19488B44007E69C6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F41C6D319488B44007E69C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1F41C6D419488B44007E69C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F41C6D619488B44007E69C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPDiscountLearning/VIPDiscountLearning-Prefix.pch";
+				INFOPLIST_FILE = "VIPDiscountLearning/VIPDiscountLearning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F41C6D719488B44007E69C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPDiscountLearning/VIPDiscountLearning-Prefix.pch";
+				INFOPLIST_FILE = "VIPDiscountLearning/VIPDiscountLearning-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F41C6D919488B44007E69C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VIPDiscountLearning.app/VIPDiscountLearning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPDiscountLearning/VIPDiscountLearning-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VIPDiscountLearningTests/VIPDiscountLearningTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1F41C6DA19488B44007E69C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VIPDiscountLearning.app/VIPDiscountLearning";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VIPDiscountLearning/VIPDiscountLearning-Prefix.pch";
+				INFOPLIST_FILE = "VIPDiscountLearningTests/VIPDiscountLearningTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F41C6A419488B44007E69C6 /* Build configuration list for PBXProject "VIPDiscountLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F41C6D319488B44007E69C6 /* Debug */,
+				1F41C6D419488B44007E69C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F41C6D519488B44007E69C6 /* Build configuration list for PBXNativeTarget "VIPDiscountLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F41C6D619488B44007E69C6 /* Debug */,
+				1F41C6D719488B44007E69C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F41C6D819488B44007E69C6 /* Build configuration list for PBXNativeTarget "VIPDiscountLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F41C6D919488B44007E69C6 /* Debug */,
+				1F41C6DA19488B44007E69C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F41C6A119488B44007E69C6 /* Project object */;
+}
