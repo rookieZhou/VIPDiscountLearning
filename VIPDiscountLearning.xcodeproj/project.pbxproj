@@ -19,6 +19,7 @@
 		1F41C6C819488B44007E69C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F41C6B019488B44007E69C6 /* UIKit.framework */; };
 		1F41C6D019488B44007E69C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F41C6CE19488B44007E69C6 /* InfoPlist.strings */; };
 		1F41C6D219488B44007E69C6 /* VIPDiscountLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41C6D119488B44007E69C6 /* VIPDiscountLearningTests.m */; };
+		1F41C6DD19488B65007E69C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41C6DC19488B65007E69C6 /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,10 @@
 		1F41C6CD19488B44007E69C6 /* VIPDiscountLearningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VIPDiscountLearningTests-Info.plist"; sourceTree = "<group>"; };
 		1F41C6CF19488B44007E69C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F41C6D119488B44007E69C6 /* VIPDiscountLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VIPDiscountLearningTests.m; sourceTree = "<group>"; };
+		1F41C6DB19488B65007E69C6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1F41C6DC19488B65007E69C6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1F41C6E81948916E007E69C6 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
+		1F41C6E91948964E007E69C6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +82,7 @@
 		1F41C6A019488B44007E69C6 = {
 			isa = PBXGroup;
 			children = (
+				1F41C6EA19489653007E69C6 /* vendor */,
 				1F41C6B219488B44007E69C6 /* VIPDiscountLearning */,
 				1F41C6CB19488B44007E69C6 /* VIPDiscountLearningTests */,
 				1F41C6AB19488B44007E69C6 /* Frameworks */,
@@ -107,8 +113,7 @@
 		1F41C6B219488B44007E69C6 /* VIPDiscountLearning */ = {
 			isa = PBXGroup;
 			children = (
-				1F41C6BB19488B44007E69C6 /* AppDelegate.h */,
-				1F41C6BC19488B44007E69C6 /* AppDelegate.m */,
+				1F41C6DE19488B82007E69C6 /* MainView */,
 				1F41C6BE19488B44007E69C6 /* Images.xcassets */,
 				1F41C6B319488B44007E69C6 /* Supporting Files */,
 			);
@@ -118,6 +123,8 @@
 		1F41C6B319488B44007E69C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1F41C6BB19488B44007E69C6 /* AppDelegate.h */,
+				1F41C6BC19488B44007E69C6 /* AppDelegate.m */,
 				1F41C6B419488B44007E69C6 /* VIPDiscountLearning-Info.plist */,
 				1F41C6B519488B44007E69C6 /* InfoPlist.strings */,
 				1F41C6B819488B44007E69C6 /* main.m */,
@@ -142,6 +149,25 @@
 				1F41C6CE19488B44007E69C6 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F41C6DE19488B82007E69C6 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				1F41C6DB19488B65007E69C6 /* MainViewController.h */,
+				1F41C6DC19488B65007E69C6 /* MainViewController.m */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		1F41C6EA19489653007E69C6 /* vendor */ = {
+			isa = PBXGroup;
+			children = (
+				1F41C6E91948964E007E69C6 /* Constants.h */,
+				1F41C6E81948916E007E69C6 /* ACMacros.h */,
+			);
+			name = vendor;
+			path = VIPDiscountLearning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F41C6BD19488B44007E69C6 /* AppDelegate.m in Sources */,
+				1F41C6DD19488B65007E69C6 /* MainViewController.m in Sources */,
 				1F41C6B919488B44007E69C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
