@@ -27,15 +27,7 @@ static O2OAPI *sharedInstance = nil;
 
 + (NSDictionary *)dictionaryOfStringsFromDictionry:(NSDictionary *)dict
 {
-    NSMutableDictionary *rectDictionary = [[NSMutableDictionary alloc] initWithCapacity:dict.count];
-    NSArray *keys = dict.allKeys;
-    for (init i = 0; i < keys.count; i++) {
-        id obj;
-        if (dict[keys[i]]) {
-            <#statements#>
-        }
-    }
-    
+    NSMusicDirectory
     
     return dict;
 }
