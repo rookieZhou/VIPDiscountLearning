@@ -20,6 +20,9 @@
 		1F41C6D019488B44007E69C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F41C6CE19488B44007E69C6 /* InfoPlist.strings */; };
 		1F41C6D219488B44007E69C6 /* VIPDiscountLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41C6D119488B44007E69C6 /* VIPDiscountLearningTests.m */; };
 		1F41C6DD19488B65007E69C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41C6DC19488B65007E69C6 /* MainViewController.m */; };
+		1FCB7C1C194A96FA0018346C /* LocationCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB7C1B194A96FA0018346C /* LocationCalculator.m */; };
+		1FCB7C22194AA2D00018346C /* PCStackMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB7C1F194AA2D00018346C /* PCStackMenu.m */; };
+		1FCB7C23194AA2D00018346C /* PCStackMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB7C21194AA2D00018346C /* PCStackMenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		1F41C6DC19488B65007E69C6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		1F41C6E81948916E007E69C6 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
 		1F41C6E91948964E007E69C6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1FCB7C1A194A96FA0018346C /* LocationCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationCalculator.h; path = VIPDiscountLearning/LocationCalculator.h; sourceTree = "<group>"; };
+		1FCB7C1B194A96FA0018346C /* LocationCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationCalculator.m; path = VIPDiscountLearning/LocationCalculator.m; sourceTree = "<group>"; };
+		1FCB7C1E194AA2D00018346C /* PCStackMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStackMenu.h; sourceTree = "<group>"; };
+		1FCB7C1F194AA2D00018346C /* PCStackMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStackMenu.m; sourceTree = "<group>"; };
+		1FCB7C20194AA2D00018346C /* PCStackMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStackMenuItem.h; sourceTree = "<group>"; };
+		1FCB7C21194AA2D00018346C /* PCStackMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStackMenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,11 +172,43 @@
 		1F41C6EA19489653007E69C6 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
-				1F41C6E91948964E007E69C6 /* Constants.h */,
-				1F41C6E81948916E007E69C6 /* ACMacros.h */,
+				1FCB7C1D194A97010018346C /* LocationCalculator */,
+				1FCB7C24194AA2D70018346C /* PCStackMenu[下拉菜单，三方] */,
+				1FCB7C25194AA40A0018346C /* Constant */,
 			);
 			name = vendor;
 			path = VIPDiscountLearning;
+			sourceTree = "<group>";
+		};
+		1FCB7C1D194A97010018346C /* LocationCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB7C1A194A96FA0018346C /* LocationCalculator.h */,
+				1FCB7C1B194A96FA0018346C /* LocationCalculator.m */,
+			);
+			name = LocationCalculator;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1FCB7C24194AA2D70018346C /* PCStackMenu[下拉菜单，三方] */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB7C1E194AA2D00018346C /* PCStackMenu.h */,
+				1FCB7C1F194AA2D00018346C /* PCStackMenu.m */,
+				1FCB7C20194AA2D00018346C /* PCStackMenuItem.h */,
+				1FCB7C21194AA2D00018346C /* PCStackMenuItem.m */,
+			);
+			name = "PCStackMenu[下拉菜单，三方]";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		1FCB7C25194AA40A0018346C /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				1F41C6E91948964E007E69C6 /* Constants.h */,
+				1F41C6E81948916E007E69C6 /* ACMacros.h */,
+			);
+			name = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +307,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F41C6BD19488B44007E69C6 /* AppDelegate.m in Sources */,
+				1FCB7C23194AA2D00018346C /* PCStackMenuItem.m in Sources */,
 				1F41C6DD19488B65007E69C6 /* MainViewController.m in Sources */,
+				1FCB7C1C194A96FA0018346C /* LocationCalculator.m in Sources */,
+				1FCB7C22194AA2D00018346C /* PCStackMenu.m in Sources */,
 				1F41C6B919488B44007E69C6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +508,7 @@
 				1F41C6D719488B44007E69C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F41C6D819488B44007E69C6 /* Build configuration list for PBXNativeTarget "VIPDiscountLearningTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +517,7 @@
 				1F41C6DA19488B44007E69C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

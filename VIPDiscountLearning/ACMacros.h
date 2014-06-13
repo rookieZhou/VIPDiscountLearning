@@ -55,7 +55,7 @@
 #define Main_Screen_Height      [[UIScreen mainScreen] bounds].size.height
 #define Main_Screen_Width       [[UIScreen mainScreen] bounds].size.width
 
-// View 坐标(x,y)和宽高(width,height)
+// 计算坐标
 #define X(v)                    (v).frame.origin.x
 #define Y(v)                    (v).frame.origin.y
 #define WIDTH(v)                (v).frame.size.width

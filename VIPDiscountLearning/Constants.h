@@ -112,7 +112,7 @@
 #define kColor_Navigation_BarButton_Highlight UIColorFromRGB(0x0D0B09)
 
 
-//Radius
+//半径
 
 #define kRadius 2.5f
 #define kRadius_Image 2.0f
