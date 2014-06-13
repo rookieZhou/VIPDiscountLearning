@@ -80,8 +80,22 @@
     button.backgroundColor = [UIColor clearColor];
     CGPoint originPoint = [[LocationCalculator sharedInstance] originPointFromUpperView:button inCoordinateView:self.view];
     NSLog(@"%f %f", originPoint.x, originPoint.y);
+    NSArray *titles = @[@"拍照分享", @"扫一扫", @"查找用户", @"搜索品牌"];
+    NSArray *images = @[
+                            [UIImage imageNamed:@"mi_cameara"],
+                            [UIImage imageNamed:@"mi_scan"],
+                            [UIImage imageNamed:@"mi_search_user"],
+                            [UIImage imageNamed:@"mi_serach_brand"]
+                        ];
+    [PCStackMenu showStackMenuWithTitles:titles
+                              withImages:images
+                            atStartPoint:originPoint
+                                  inView:self.view
+                              itemHeight:40
+                           menuDirection:PCStackMenuDirectionClockWiseUp
+                            onSelectMenu:^(NSInteger selectedMenuIndex) {
     
-    
+    }];
 //    [PCStackMenu showStackMenuWithTitles:[NSArray arrayWithObjects:@"Setting", @"Search", @"Twitter", @"Message", @"Share", @"More ...", nil]
 //                              withImages:[NSArray arrayWithObjects:[UIImage imageNamed:@"gear@2x.png"], [UIImage imageNamed:@"magnifier@2x.png"], [UIImage imageNamed:@"twitter@2x.png"], [UIImage imageNamed:@"speech@2x.png"], [UIImage imageNamed:@"actions@2x"], nil]
 //                            atStartPoint:CGPointMake(button.frame.origin.x + button.frame.size.width, button.frame.origin.y)
@@ -91,8 +105,7 @@
 //                            onSelectMenu:^(NSInteger selectedMenuIndex) {
 //                                NSLog(@"menu index : %d", selectedMenuIndex);
 //                            }];
-
-
+ 
 
 
 }

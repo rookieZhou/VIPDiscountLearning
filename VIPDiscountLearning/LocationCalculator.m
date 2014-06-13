@@ -33,7 +33,7 @@
     return self;
 }
 
-
+//下方右对齐
 - (CGPoint)originPointFromUpperView:(UIView *)view
                    inCoordinateView:(UIView *)coordinateView
 {

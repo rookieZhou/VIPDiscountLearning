@@ -20,9 +20,18 @@
 		1F41C6D019488B44007E69C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F41C6CE19488B44007E69C6 /* InfoPlist.strings */; };
 		1F41C6D219488B44007E69C6 /* VIPDiscountLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41C6D119488B44007E69C6 /* VIPDiscountLearningTests.m */; };
 		1F41C6DD19488B65007E69C6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F41C6DC19488B65007E69C6 /* MainViewController.m */; };
+		1F698873194AC99F00945FDF /* O2OAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F698872194AC99F00945FDF /* O2OAPI.m */; };
 		1FCB7C1C194A96FA0018346C /* LocationCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB7C1B194A96FA0018346C /* LocationCalculator.m */; };
 		1FCB7C22194AA2D00018346C /* PCStackMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB7C1F194AA2D00018346C /* PCStackMenu.m */; };
 		1FCB7C23194AA2D00018346C /* PCStackMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FCB7C21194AA2D00018346C /* PCStackMenuItem.m */; };
+		1FCB7C28194AAAD10018346C /* mi_camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB7C26194AAAD10018346C /* mi_camera.png */; };
+		1FCB7C29194AAAD10018346C /* mi_camera@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB7C27194AAAD10018346C /* mi_camera@2x.png */; };
+		1FCB7C2C194AAB020018346C /* mi_scan.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB7C2A194AAB020018346C /* mi_scan.png */; };
+		1FCB7C2D194AAB020018346C /* mi_scan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB7C2B194AAB020018346C /* mi_scan@2x.png */; };
+		1FCB7C30194AAB0C0018346C /* mi_search_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB7C2E194AAB0C0018346C /* mi_search_user.png */; };
+		1FCB7C31194AAB0C0018346C /* mi_search_user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB7C2F194AAB0C0018346C /* mi_search_user@2x.png */; };
+		1FCB7C34194AAB160018346C /* mi_search_brand.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB7C32194AAB160018346C /* mi_search_brand.png */; };
+		1FCB7C35194AAB160018346C /* mi_search_brand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FCB7C33194AAB160018346C /* mi_search_brand@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,12 +65,22 @@
 		1F41C6DC19488B65007E69C6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		1F41C6E81948916E007E69C6 /* ACMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMacros.h; sourceTree = "<group>"; };
 		1F41C6E91948964E007E69C6 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1F698871194AC99F00945FDF /* O2OAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = O2OAPI.h; path = ../O2OAPI.h; sourceTree = "<group>"; };
+		1F698872194AC99F00945FDF /* O2OAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = O2OAPI.m; path = ../O2OAPI.m; sourceTree = "<group>"; };
 		1FCB7C1A194A96FA0018346C /* LocationCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationCalculator.h; path = VIPDiscountLearning/LocationCalculator.h; sourceTree = "<group>"; };
 		1FCB7C1B194A96FA0018346C /* LocationCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationCalculator.m; path = VIPDiscountLearning/LocationCalculator.m; sourceTree = "<group>"; };
 		1FCB7C1E194AA2D00018346C /* PCStackMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStackMenu.h; sourceTree = "<group>"; };
 		1FCB7C1F194AA2D00018346C /* PCStackMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStackMenu.m; sourceTree = "<group>"; };
 		1FCB7C20194AA2D00018346C /* PCStackMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCStackMenuItem.h; sourceTree = "<group>"; };
 		1FCB7C21194AA2D00018346C /* PCStackMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCStackMenuItem.m; sourceTree = "<group>"; };
+		1FCB7C26194AAAD10018346C /* mi_camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mi_camera.png; sourceTree = "<group>"; };
+		1FCB7C27194AAAD10018346C /* mi_camera@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mi_camera@2x.png"; sourceTree = "<group>"; };
+		1FCB7C2A194AAB020018346C /* mi_scan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mi_scan.png; sourceTree = "<group>"; };
+		1FCB7C2B194AAB020018346C /* mi_scan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mi_scan@2x.png"; sourceTree = "<group>"; };
+		1FCB7C2E194AAB0C0018346C /* mi_search_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mi_search_user.png; sourceTree = "<group>"; };
+		1FCB7C2F194AAB0C0018346C /* mi_search_user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mi_search_user@2x.png"; sourceTree = "<group>"; };
+		1FCB7C32194AAB160018346C /* mi_search_brand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mi_search_brand.png; sourceTree = "<group>"; };
+		1FCB7C33194AAB160018346C /* mi_search_brand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mi_search_brand@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +151,7 @@
 		1F41C6B319488B44007E69C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1FCB7C36194AAB1F0018346C /* pulldownIcon */,
 				1F41C6BB19488B44007E69C6 /* AppDelegate.h */,
 				1F41C6BC19488B44007E69C6 /* AppDelegate.m */,
 				1F41C6B419488B44007E69C6 /* VIPDiscountLearning-Info.plist */,
@@ -172,12 +192,22 @@
 		1F41C6EA19489653007E69C6 /* vendor */ = {
 			isa = PBXGroup;
 			children = (
+				1F698874194AC9A800945FDF /* O2OAPI */,
 				1FCB7C1D194A97010018346C /* LocationCalculator */,
 				1FCB7C24194AA2D70018346C /* PCStackMenu[下拉菜单，三方] */,
 				1FCB7C25194AA40A0018346C /* Constant */,
 			);
 			name = vendor;
 			path = VIPDiscountLearning;
+			sourceTree = "<group>";
+		};
+		1F698874194AC9A800945FDF /* O2OAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1F698871194AC99F00945FDF /* O2OAPI.h */,
+				1F698872194AC99F00945FDF /* O2OAPI.m */,
+			);
+			name = O2OAPI;
 			sourceTree = "<group>";
 		};
 		1FCB7C1D194A97010018346C /* LocationCalculator */ = {
@@ -209,6 +239,21 @@
 				1F41C6E81948916E007E69C6 /* ACMacros.h */,
 			);
 			name = Constant;
+			sourceTree = "<group>";
+		};
+		1FCB7C36194AAB1F0018346C /* pulldownIcon */ = {
+			isa = PBXGroup;
+			children = (
+				1FCB7C32194AAB160018346C /* mi_search_brand.png */,
+				1FCB7C33194AAB160018346C /* mi_search_brand@2x.png */,
+				1FCB7C2E194AAB0C0018346C /* mi_search_user.png */,
+				1FCB7C2F194AAB0C0018346C /* mi_search_user@2x.png */,
+				1FCB7C2A194AAB020018346C /* mi_scan.png */,
+				1FCB7C2B194AAB020018346C /* mi_scan@2x.png */,
+				1FCB7C26194AAAD10018346C /* mi_camera.png */,
+				1FCB7C27194AAAD10018346C /* mi_camera@2x.png */,
+			);
+			name = pulldownIcon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,8 +331,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FCB7C28194AAAD10018346C /* mi_camera.png in Resources */,
+				1FCB7C2D194AAB020018346C /* mi_scan@2x.png in Resources */,
+				1FCB7C30194AAB0C0018346C /* mi_search_user.png in Resources */,
+				1FCB7C31194AAB0C0018346C /* mi_search_user@2x.png in Resources */,
+				1FCB7C35194AAB160018346C /* mi_search_brand@2x.png in Resources */,
 				1F41C6B719488B44007E69C6 /* InfoPlist.strings in Resources */,
+				1FCB7C34194AAB160018346C /* mi_search_brand.png in Resources */,
+				1FCB7C2C194AAB020018346C /* mi_scan.png in Resources */,
 				1F41C6BF19488B44007E69C6 /* Images.xcassets in Resources */,
+				1FCB7C29194AAAD10018346C /* mi_camera@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F41C6BD19488B44007E69C6 /* AppDelegate.m in Sources */,
+				1F698873194AC99F00945FDF /* O2OAPI.m in Sources */,
 				1FCB7C23194AA2D00018346C /* PCStackMenuItem.m in Sources */,
 				1F41C6DD19488B65007E69C6 /* MainViewController.m in Sources */,
 				1FCB7C1C194A96FA0018346C /* LocationCalculator.m in Sources */,
