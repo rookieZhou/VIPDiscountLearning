@@ -19,17 +19,26 @@ typedef void (^SignupFailureBlock)(void);
 
 @interface O2OAPI : NSObject
 
+// 当前的城市名
+@property (nonatomic, copy) NSString *currentCityName;
+
+// 选中的城市名
+@property (nonatomic, copy) NSString *selectedCityName;
+
+
+// 用户信息
 @property (nonatomic, strong) NSMutableDictionary *userInfomations;
 
+
+// 用户登录信息
 @property (nonatomic, strong) NSMutableDictionary *userLoginInfomations;
+
 
 @property (nonatomic, assign) BOOL isSaveUserInfomations;
 
 @property (nonatomic, assign) CLLocationCoordinate2D coordinate;
 
-@property (nonatomic, copy) NSString *currentCityName;
 
-@property (nonatomic, copy) NSString *selectedCityName;
 
 @property (nonatomic, copy) NSString *udid;
 
